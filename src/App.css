@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Add this to your tailwind.config.js or global styles */
+@layer components {
+  .wave-animation {
+    @apply absolute top-0 left-0 w-full h-full;
+  }
+}

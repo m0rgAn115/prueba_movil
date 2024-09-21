@@ -1,0 +1,27 @@
+/* PulseAnimation.css */
+.pulse {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.722); /* Cambia el color de fondo del círculo */
+  animation: pulse-animation 1.5s infinite ease-out;
+}
+
+.color {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.722); 
+
+}
+
+@keyframes pulse-animation {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
